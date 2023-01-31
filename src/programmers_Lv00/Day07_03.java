@@ -1,5 +1,5 @@
 package programmers_Lv00;
-//자연수 뒤집어 배열로 만들기
+//23번 자연수 뒤집어 배열로 만들기
 
 import java.util.ArrayList;
 

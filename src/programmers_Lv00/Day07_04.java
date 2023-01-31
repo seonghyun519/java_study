@@ -1,5 +1,5 @@
 package programmers_Lv00;
-
+//24번 내림차순으로 배치하기
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -22,25 +22,25 @@ public class Day07_04 {
         return answer;
     }
 }
-//오름차순 정렬 시 integer타입 이슈
-//데이터 타입 Integer와 int의 차이
-//https://velog.io/@haileeyu21/TIL-Java-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%83%80%EC%9E%85-Integer%EC%99%80-int%EC%9D%98-%EC%B0%A8%EC%9D%B4
-//[Java] int, String 배열 오름차순/내림차순 정렬
-//https://bangu4.tistory.com/287
-//외 참고 long에서 int로 안전하게 형변환
-
-
-//다른사람 풀이
-//import java.util.*;
+////오름차순 정렬 시 integer타입 이슈
+////데이터 타입 Integer와 int의 차이
+////https://velog.io/@haileeyu21/TIL-Java-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%83%80%EC%9E%85-Integer%EC%99%80-int%EC%9D%98-%EC%B0%A8%EC%9D%B4
+////[Java] int, String 배열 오름차순/내림차순 정렬
+////https://bangu4.tistory.com/287
+////외 참고 long에서 int로 안전하게 형변환
 //
-//class Solution {
-//    public long solution(long n) {
-//        String[] list = String.valueOf(n).split("");
-//        Arrays.sort(list);
 //
-//        StringBuilder sb = new StringBuilder();
-//        for (String aList : list) sb.append(aList);
-//
-//        return Long.parseLong(sb.reverse().toString());
-//    }
-//}
+////다른사람 풀이
+////import java.util.*;
+////
+////class Solution {
+////    public long solution(long n) {
+////        String[] list = String.valueOf(n).split("");
+////        Arrays.sort(list);
+////
+////        StringBuilder sb = new StringBuilder();
+////        for (String aList : list) sb.append(aList);
+////
+////        return Long.parseLong(sb.reverse().toString());
+////    }
+////}
