@@ -1,6 +1,6 @@
 package programmers_Lv00;
 
-//부족한 금액 계산하기
+//12번 부족한 금액 계산하기
 public class Day05_03 {
     public long solution(int price, int money, int count) {
         long answer = 0;
