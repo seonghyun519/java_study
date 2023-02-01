@@ -1,8 +1,7 @@
 package baekjoon_Algorithm;
-
+//https://www.acmicpc.net/problem/5585
 import java.util.Scanner;
-
-public class Baekjoon_5585 {
+public class Baekjoon_5585_01 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
