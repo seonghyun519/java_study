@@ -1,7 +1,7 @@
 package hanghae_Algorithm;
 //핸드폰 번호 가리기
 //https://programmers.co.kr/learn/courses/30/lessons/12948
-public class Day04_09 {
+public class Walking04_09 {
     public String solution(String phone_number) {
         String answer = "";
         StringBuilder pn = new StringBuilder(phone_number);

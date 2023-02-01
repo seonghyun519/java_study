@@ -2,7 +2,7 @@ package hanghae_Algorithm;
 //23번 자연수 뒤집어 배열로 만들기
 //https://programmers.co.kr/learn/courses/30/lessons/12932
 import java.util.ArrayList;
-public class Day07_03 {
+public class Walking07_03 {
     public int[] solution(long n) {
         int[] answer = {};
         ArrayList<Integer> arr = new ArrayList<Integer>();

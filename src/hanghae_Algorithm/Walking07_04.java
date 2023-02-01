@@ -3,7 +3,7 @@ package hanghae_Algorithm;
 //https://programmers.co.kr/learn/courses/30/lessons/12933
 import java.util.Arrays;
 import java.util.Comparator;
-public class Day07_04 {
+public class Walking07_04 {
     public long solution(long n) {
         long answer = 0;
         String ss = "";

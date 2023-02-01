@@ -1,7 +1,7 @@
 package hanghae_Algorithm;
 //18번 서울에서 김서방 찾기
 //https://programmers.co.kr/learn/courses/30/lessons/12919
-public class Day06_04 {
+public class Walking06_04 {
     public String solution(String[] seoul) {
         String answer = "";
         for (int i = 0; i < seoul.length; i++) {

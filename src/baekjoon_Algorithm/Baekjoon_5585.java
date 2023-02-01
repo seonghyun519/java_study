@@ -1,8 +1,8 @@
-package etc;
+package baekjoon_Algorithm;
 
 import java.util.Scanner;
 
-public class Day07_etc {
+public class Baekjoon_5585 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

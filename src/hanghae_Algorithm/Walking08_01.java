@@ -1,7 +1,7 @@
 package hanghae_Algorithm;
 //27번 콜라츠 추측
 //https://programmers.co.kr/learn/courses/30/lessons/12943
-public class Day08_01 {
+public class Walking08_01 {
     public int solution(long num) {
         int answer = 0;
         if (num == 1) {

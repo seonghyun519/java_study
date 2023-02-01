@@ -1,7 +1,7 @@
 package hanghae_Algorithm;
 //7번째 음양 더하기
 //https://programmers.co.kr/learn/courses/30/lessons/76501
-public class Day04_07 {
+public class Walking04_07 {
     public int solution(int[] absolutes, boolean[] signs) {
         int answer = 0;
         for (int i = 0; i < absolutes.length; i++) {

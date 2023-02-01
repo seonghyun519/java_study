@@ -1,7 +1,7 @@
 package hanghae_Algorithm;
 //17번 문자열 다루기 기본
 //https://programmers.co.kr/learn/courses/30/lessons/12918
-public class Day06_03 {
+public class Walking06_03 {
     public boolean solution(String s) {
         boolean answer = false;
         if (!(s.length() == 4 || s.length() == 6)) {

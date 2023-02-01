@@ -1,7 +1,7 @@
 package hanghae_Algorithm;
 //19번 수박수박수박수박수박수?
 //https://programmers.co.kr/learn/courses/30/lessons/12922
-public class Day06_05 {
+public class Walking06_05 {
     public String solution(int n) {
         String answer = "";
         String s = "수";

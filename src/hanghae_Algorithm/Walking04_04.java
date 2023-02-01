@@ -1,7 +1,7 @@
 package hanghae_Algorithm;
 //두 정수 사이의 합
 //https://programmers.co.kr/learn/courses/30/lessons/12912
-public class Day04_04 {
+public class Walking04_04 {
     public long solution(int a, int b) {
         long answer = 0;
         if (a>b){

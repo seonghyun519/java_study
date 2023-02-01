@@ -1,7 +1,7 @@
 package hanghae_Algorithm;
 //21번째 이상한 문자 만들기
 //https://programmers.co.kr/learn/courses/30/lessons/12930
-public class Day07_01 {
+public class Walking07_01 {
     public String solution(String s) {
         StringBuilder str = new StringBuilder();
         int index = 0;

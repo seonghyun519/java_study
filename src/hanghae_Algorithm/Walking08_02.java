@@ -2,7 +2,7 @@ package hanghae_Algorithm;
 
 //28번 하샤드 수
 //https://programmers.co.kr/learn/courses/30/lessons/12947
-public class Day08_02 {
+public class Walking08_02 {
     public boolean solution(int x) {
         String b = "" + x;
         String[] str = b.split("");
