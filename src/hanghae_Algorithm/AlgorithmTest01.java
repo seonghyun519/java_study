@@ -1,4 +1,4 @@
-package programmers_Lv00;
+package hanghae_Algorithm;
 
 //항해 알고리즘 테스트 모의고사
 public class AlgorithmTest01 {

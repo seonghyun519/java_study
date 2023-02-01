@@ -1,9 +1,8 @@
-package programmers_Lv00;
-//24번 내림차순으로 배치하기
+package hanghae_Algorithm;
+//24번 정수 내림차순으로 배치하기
+//https://programmers.co.kr/learn/courses/30/lessons/12933
 import java.util.Arrays;
 import java.util.Comparator;
-
-//24번 정수 내림차순으로 배치하기
 public class Day07_04 {
     public long solution(long n) {
         long answer = 0;

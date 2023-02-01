@@ -1,5 +1,6 @@
-package programmers_Lv00;
+package hanghae_Algorithm;
 //없는 숫자 더하기
+//https://programmers.co.kr/learn/courses/30/lessons/86051
 public class Day04_06 {
     public int solution(int[] numbers) {
         int answer = 45;

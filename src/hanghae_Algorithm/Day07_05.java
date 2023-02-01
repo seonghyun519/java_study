@@ -1,6 +1,7 @@
-package programmers_Lv00;
+package hanghae_Algorithm;
 
-//24번 정수 제곱근 판별
+//25번 정수 제곱근 판별
+//https://programmers.co.kr/learn/courses/30/lessons/12934
 public class Day07_05 {
     public long solution(long n) {
         long answer = -1;

@@ -1,8 +1,8 @@
-package programmers_Lv00;
+package hanghae_Algorithm;
 
-    import java.util.Arrays;
-
+import java.util.Arrays;
 //14번 나누어 떨어지는 숫자 배열
+//https://programmers.co.kr/learn/courses/30/lessons/12910
 public class Day05_05 {
     public int[] solution(int[] arr, int divisor) {
         int count = 0;
@@ -32,7 +32,6 @@ public class Day05_05 {
 //++증감 연산자 해당 행에서는 기존 숫자 유지 할 수 있으며 다음행에서 더해지는 부분 확인
 //오름차순
 //http://www.tcpschool.com/java/java_api_arrays
-
 
 
 //다른 사람 풀이

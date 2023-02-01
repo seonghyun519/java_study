@@ -1,5 +1,6 @@
-package programmers_Lv00;
+package hanghae_Algorithm;
 //15번 내적
+//https://programmers.co.kr/learn/courses/30/lessons/70128
 public class Day06_01 {
     int answer = 0;
     int temp = 0;

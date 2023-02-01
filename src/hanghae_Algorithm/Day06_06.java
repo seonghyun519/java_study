@@ -1,7 +1,7 @@
-package programmers_Lv00;
-//20번 완주하지 못한 선수
+package hanghae_Algorithm;
 import java.util.Arrays;
-
+//20번째 완주하지 못한 선수
+//https://programmers.co.kr/learn/courses/30/lessons/42576
 public class Day06_06 {
     public String solution(String[] participant, String[] completion) {
         int i = 0;

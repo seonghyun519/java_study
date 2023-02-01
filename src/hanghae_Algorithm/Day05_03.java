@@ -1,6 +1,7 @@
-package programmers_Lv00;
+package hanghae_Algorithm;
 
 //12번 부족한 금액 계산하기
+//https://programmers.co.kr/learn/courses/30/lessons/82612
 public class Day05_03 {
     public long solution(int price, int money, int count) {
         long answer = 0;

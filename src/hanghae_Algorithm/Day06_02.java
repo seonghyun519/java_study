@@ -1,5 +1,6 @@
-package programmers_Lv00;
+package hanghae_Algorithm;
 //16번 문자열 내 p와 y의 개수
+//https://programmers.co.kr/learn/courses/30/lessons/12916
 public class Day06_02 {
     boolean solution(String s) {
         int cnt1 = 0;

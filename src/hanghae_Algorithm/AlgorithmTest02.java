@@ -1,4 +1,4 @@
-package programmers_Lv00;
+package hanghae_Algorithm;
 
 public class AlgorithmTest02 {
     public String solution(String s) {

@@ -1,7 +1,7 @@
-package programmers_Lv00;
-
+package hanghae_Algorithm;
+//7번째 음양 더하기
+//https://programmers.co.kr/learn/courses/30/lessons/76501
 public class Day04_07 {
-    //음양 더하기
     public int solution(int[] absolutes, boolean[] signs) {
         int answer = 0;
         for (int i = 0; i < absolutes.length; i++) {
