@@ -2,7 +2,6 @@ package baekjoon_Algorithm;
 //https://www.acmicpc.net/problem/5585
 import java.util.Scanner;
 public class Baekjoon_5585_01 {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int num1 = scanner.nextInt();
@@ -11,6 +10,7 @@ public class Baekjoon_5585_01 {
         int money = 1000 - num1;
         int count = 0;
         int index = 0;
+
         while (!(money == 0)) {
             if (money >= nowM) {
                 money = money - nowM;
@@ -23,8 +23,6 @@ public class Baekjoon_5585_01 {
         System.out.println(count);
     }
 }
-
-
 //다른사람 풀이
 //import java.util.Scanner;
 //

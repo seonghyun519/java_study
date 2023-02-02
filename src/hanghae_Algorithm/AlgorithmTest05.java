@@ -1,10 +1,7 @@
-package baekjoon_Algorithm;
-import java.util.Arrays;
-////백준 풀이 클래스
-////작업 후 옮기자
+package hanghae_Algorithm;
 
-//궁굼한점 index가 유효하지 않을때 배열이 없을때..
-public class Main {
+import java.util.Arrays;
+public class AlgorithmTest05 {
     public char[][] solution(int N, char[][] ary) {
 //        int[] x = {1, -1, 0, 0, 1, 1, -1, -1};
 //        int[] y = {0, 0, 1, -1, 1, -1, 1, -1};
@@ -50,7 +47,7 @@ public class Main {
     //* 반영안함 ㅠ
 
     public static void main(String[] args) {
-        Main method = new Main();
+        AlgorithmTest05 method = new AlgorithmTest05();
         int N = 5;
         char[][] chars =
                 {{'1', '.', '.', '.', '.'},
@@ -61,54 +58,6 @@ public class Main {
         System.out.println(Arrays.deepToString(method.solution(N, chars)));
     }
 }
-//알고리즘 테스트 1
-//public class Main {
-//    public int solution1(int num) {
-//        int answer = 0;
-//        if (!(10<=num && 1000>num)){
-//            return answer;
-//        }
-//        int money = 1000 - num;
-//        int[] arr = {500,100,50,10};
-//        for (int i = 0; i <arr.length ; i++) {
-//            if (money>=arr[i]) {
-//                answer += money / arr[i];
-//                money %= arr[i];
-//            }
-//        }
-//        return answer;
-//    }
-//
-//    public static void main(String[] args) {
-//        Main method = new Main();
-//        int num1 = 900;
-//        System.out.println(method.solution1(num1));
-//    }
-//}
-//
-////알고리즘 테스트2
-//public class Main {
-//    public int solution(String s) {
-//        int answer = 0;
-//        int count = 0;
-//        String[] s1 = s.split("");
-//        for (int i = 0; i < s1.length; i++) {
-//            if (s1[i].equals("O")){
-//                count++;
-//                answer += count;
-//            }else {
-//                count = 0;
-//            }
-//        }
-//        return answer;
-//    }
-//
-//    public static void main(String[] args) {
-//        Main method = new Main();
-//        String s = "OXOOOXXXOXOOXOOOOOXO";
-//        System.out.println(method.solution(s));
-//    }
-//}
 
 
 //import java.util.Arrays;
