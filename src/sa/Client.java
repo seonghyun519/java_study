@@ -11,5 +11,6 @@ public class Client {
         bus1.Use(60);
         bus1.Use(5);
         bus1.oil(-55); //차고지를 갔는데 왜애애 손님이 타고있나요? 요금도 이상해~
+        bus1.Condition();
     }
 }

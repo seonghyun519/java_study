@@ -1,6 +1,6 @@
 package sa;
 
-public class Bus extends Transport implements AbstractOperation {
+public class Bus extends Transport implements TransportInterface {
     private static int transportNumber;
     final int MAX_COSTOMER = 28; //최대 탑승객
     final int COST = 1000; //요금
