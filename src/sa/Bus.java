@@ -11,7 +11,6 @@ public class Bus extends Transport implements TransportInterface {
         System.out.println(getTransportNumber() + "번 버스객체 만들어짐!");
         setOil(100);
     }
-
     public static int getTransportNumber() {
         return transportNumber;
     }
@@ -47,7 +46,6 @@ public class Bus extends Transport implements TransportInterface {
             System.out.println("최대 승객 수 초과했습니다.");
         }
     }
-
     @Override
     public void speed() {
         this.setNowSpeed(getNowSpeed()+1);
