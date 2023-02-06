@@ -1,5 +1,5 @@
 package sa;
-
+//스프링 시작전 객체지향 설계해보기..
 public class Client {
     public static void main(String[] args) {
         Bus bus1 = new Bus();
